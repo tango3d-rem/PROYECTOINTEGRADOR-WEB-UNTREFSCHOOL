@@ -126,6 +126,8 @@ body {
   }
   
   /* Media Queries para diseño responsive */
+  
+  /* 768px */
   @media (max-width: 768px) {
     header h1 {
       font-size: 24px;
@@ -135,4 +137,43 @@ body {
       display: block;
       margin: 10px 0;
     }
-  }  
+  }
+  
+  /* 320px */
+  @media (max-width: 320px) {
+    header h1 {
+      font-size: 20px;
+    }
+  
+    nav li {
+      display: block;
+      margin: 5px 0;
+    }
+  
+    section {
+      padding: 20px;
+    }
+  
+    section h1 {
+      font-size: 22px;
+    }
+  
+    section p {
+      font-size: 14px;
+    }
+  
+    .container {
+      max-width: 90%;
+    }
+  
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      font-size: 14px;
+    }
+  
+    button {
+      font-size: 16px;
+    }
+  }
+  
