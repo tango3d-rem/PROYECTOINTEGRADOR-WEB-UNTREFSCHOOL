@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PROYECTO-INTEGRADOR-WEB-UNTREFSCHOOL</title>
+    <link rel="shortcut ico" sizes="16x16 24x24 32x32 48x48" href="img/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
@@ -15,7 +16,7 @@
 <body>
     <header>
             <h1>UntrefSchool</h1>
-            <img src="./img/edificio.jpg"
+            <img src="./img/edificio.jpg" alt="Edificio"
     </header>
 
     <nav>
@@ -24,37 +25,61 @@
             <li><a href="#">¿Por qué elegirnos?</a></li>
             <li><a href="#">Propuesta educativa</a></li>
             <li><a href="#">Últimas noticias</a></li>
+            <li><a href="#">Contacto</a></li>
         </ul>
     </nav>
 
     <section>
        <div>
-        <h1>Quines Somos</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, nemo.</p>
-        <img src="./img/quienes somos.jpg"
+         <h1>Quines Somos</h1>
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, nemo.</p>
+         <img src="./img/quienes somos.jpg" alt="Quienes Somos"
        </div> 
     </section>
 
     <section>
         <div>
-         <h1>¿Por que elegirnos?</h1>
-         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, nemo.</p>
-         <img src="./img/por que elegirnos.jpg"
+          <h1>¿Por que elegirnos?</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, nemo.</p>
+          <img src="./img/por que elegirnos.jpg" alt="Por que elegirnos?"
         </div> 
      </section>
 
      <section>
         <div>
-         <h1>Propuesta Educativo</h1>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quam cumque numquam minus labore error officia voluptas sapiente ipsum nisi dolor sit laborum autem enim harum praesentium quasi similique et.</p>
+          <h1>Propuesta Educativo</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quam cumque numquam minus labore error officia voluptas sapiente ipsum nisi dolor sit laborum autem enim harum praesentium quasi similique et.</p>
+          <img src="./img/propuesta educativa.jpg" alt="Propuesta educativa">
         </div> 
      </section>
 
      <section>
         <div>
-         <h1>Últimas noticias</h1>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quam cumque numquam minus labore error officia voluptas sapiente ipsum nisi dolor sit laborum autem enim harum praesentium quasi similique et.</p>
+          <h1>Últimas noticias</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quam cumque numquam minus labore error officia voluptas sapiente ipsum nisi dolor sit laborum autem enim harum praesentium quasi similique et.</p>
         </div> 
+     </section>
+
+     <section>
+        <div class="container">
+            <h1>Formulario de Contacto</h1>
+            <form target="_blank" action="https://formsubmit.co/marius.achu@gmail.com" method="POST">
+              <div class="form-group">
+                <div class="form-row">
+                  <div class="col">
+                    <input type="text" name="name" class="form-control" placeholder="Nombre Completo" required>
+                  </div>
+                  <div class="col">
+                    <input type="email" name="email" class="form-control" placeholder="Email" required>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <textarea placeholder="Consulta" class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-lg btn-dark btn-block">Enviar Formulario</button>
+            </form>
+          </div>
      </section>
      
      <footer>
@@ -72,7 +97,5 @@
         <p>&copy; 2023. Todo los derechos reservados</p>
      </footer>
 
-
-    
 </body>
 </html>
