@@ -45,9 +45,33 @@
     </style>
 </head>
 <body>
-    <div>
-        <h1>Prueba de Trasparencia</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste eveniet soluta culpa, quas doloribus eaque fugiat, similique odit pariatur aperiam quasi corporis! Esse fugiat consectetur impedit enim voluptatum saepe assumenda, dolor odio sed sunt, ea modi obcaecati hic perspiciatis vero iste maiores illum! Distinctio quisquam sapiente, suscipit optio adipisci minima?</p>
-    </div>
+    <main>
+        <header>
+
+        </header>
+
+        <section>
+            <div class="container">
+                <h1>Formulario de Contacto</h1>
+                <form target="_blank" action="https://formsubmit.co/marius.achu@gmail.com" method="POST">
+                  <div class="form-group">
+                    <div class="form-row">
+                      <div class="col">
+                        <input type="text" name="name" class="form-control" placeholder="Nombre Completo" required>
+                      </div>
+                      <div class="col">
+                        <input type="email" name="email" class="form-control" placeholder="Email" required>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <textarea placeholder="Consulta" class="form-control" name="message" rows="10" required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-lg btn-dark btn-block">Enviar Formulario</button>
+                </form>
+              </div>
+         </section>
+    </main>
+    
 </body>
 </html>

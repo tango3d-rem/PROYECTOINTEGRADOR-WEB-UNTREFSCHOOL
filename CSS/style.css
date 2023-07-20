@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;700&family=Poppins:wght@400;700&display=swap');
 
-htlm {
+html {
   scroll-behavior: smooth;
 }
 
@@ -67,8 +67,6 @@ body {
     margin-left: auto;
   }
 
-
-
   article {
     padding: 40px;
   }
@@ -96,7 +94,16 @@ body {
   article p {
     text-align: justify;
   }
-  
+
+  h2 a {
+    color: #fff;
+    text-decoration: none;    
+  }
+
+  h2 a:hover {
+    color: #FF944D;
+  }
+
   footer {
     background-color: #00425A;
     color: #fff;
