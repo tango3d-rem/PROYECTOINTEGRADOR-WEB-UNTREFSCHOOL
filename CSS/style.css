@@ -13,10 +13,15 @@ body {
   }
   
   header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: #1F8A70;
     color: #fff;
     text-align: center;
     padding: 20px;
+    z-index: 2;
   }
   
   .header-content {
@@ -45,6 +50,38 @@ body {
   nav a {
     color: #fff;
     text-decoration: none;
+  }
+
+  main {
+    margin-top: 70px;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  .container {
+    position: relative;
+  }
+  
+  .container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 0 5px;
+    box-sizing: border-box;
+  }
+  
+  .container h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 3rem;
+    /* background-color: rgba(255, 99, 71, 0.7); */
+    padding: 10px 20px;
+    color: #FC7300; /* Cambia el valor alpha (1) para ajustar la transparencia del texto */
   }
   
   section {
