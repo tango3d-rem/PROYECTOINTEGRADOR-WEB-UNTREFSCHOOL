@@ -13,10 +13,11 @@ body {
   }
   
   header {
-    position: fixed;
+    position: sticky;
+    /* position: fixed; */
     top: 0;
-    left: 0;
-    width: 100%;
+    /* left: 0;
+    width: 100%; */
     background-color: #1F8A70;
     color: #fff;
     text-align: center;
